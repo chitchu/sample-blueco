@@ -7,11 +7,11 @@ import './Embed.css';
 const Embed = ({ title, location, temperature, showWind, wind, icon }) => {
   return (
     <div className="embed-widget">
-      <Heading level={1}>{title}</Heading>
+      <Heading level={1} className="widget-title">{title}</Heading>
       <div className="content">
         <img src={icon} alt="Weather icon" />
         <div>
-          <Heading level={2}>{location}</Heading>
+          <Heading level={2} className="widget-location">{location}</Heading>
           <Text bold={true}>{temperature}°</Text>
           {showWind && <Text>Wind {wind}</Text>}
         </div>

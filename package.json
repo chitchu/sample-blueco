@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://chitchu.github.io/sample-blueco",
   "devDependencies": {
+    "enzyme": "^2.8.0",
     "gh-pages": "^0.12.0",
+    "react-addons-test-utils": "^15.4.2",
     "react-scripts": "0.9.5"
   },
   "dependencies": {

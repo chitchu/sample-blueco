@@ -1,0 +1,14 @@
+.side-by-side {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: top;
+}
+
+.side-by-side .editor {
+  width: 50%;
+}
+
+.side-by-side .embed-preview {
+  width: 40%;
+}

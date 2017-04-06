@@ -1,0 +1,5 @@
+.embed-widget .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

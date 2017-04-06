@@ -12,4 +12,10 @@
 
 ### Gotchas
 
-The GH page demo doesn't work because GH pages are served over SSL and openweather API only serve over unsecured http. The best way to test this is running the local server and using Firefox (Chrome 56+ doesn't allow getlocation api over non SSL connections).
+The GH page demo doesn't work because GH pages are served over SSL and openweather API only serves their endpoint over unsecured http. The best way to test this is running the local server and using Firefox (Chrome 56+ doesn't allow getlocation api over non SSL connections). Tried swapping openweather over Dark Sky api but ran out of time.
+
+### Areas of interest
+
+* `src/components/EditorContainer.js`
+* `src/components/EmbedContainer.js`
+* `src/modules/services.js`
